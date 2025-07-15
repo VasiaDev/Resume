@@ -1,0 +1,124 @@
+header {
+    width: 100%;
+    background-color: #282C33;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.d-flex.justify-content-between {
+    width: 100%;
+}
+
+/* ===== Header ===== */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-logo,
+.header-nav {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.header-logo {
+    cursor: pointer;
+}
+
+.header-nav {
+    gap: 2rem;
+}
+
+.hashtag {
+    color: #C778DD;
+}
+
+.header-nav-link.active {
+    color: white;
+    font-weight: 500;
+}
+
+/* ===== Header language switcher ===== */
+.language-container {
+    position: relative;
+    display: inline-block;
+}
+
+.language-switcher {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.language-current {
+    color: #ABB2BF;
+    font-weight: 600;
+}
+
+.language-switcher .arrow img {
+    width: 10px;
+    height: auto;
+    display: inline-block;
+}
+
+.language-options {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-10px);
+    background: #282C33;
+    border: 1px solid #ABB2BF;
+    flex-direction: column;
+    min-width: 36px;
+    margin-top: 6px;
+    z-index: 10;
+    text-align: center;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: max-height 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+}
+
+.language-option {
+    padding: 4px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ABB2BF;
+    cursor: pointer;
+    border-top: 1px solid #ABB2BF;
+    border-top: none;
+}
+
+.language-option:hover {
+    background: #3c4047;
+}
+
+.language-container.open .language-options {
+    max-height: 200px;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+    pointer-events: auto;
+}
+
+.language-container.open .language-switcher .arrow img {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
+
+
+

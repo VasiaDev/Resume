@@ -1,0 +1,66 @@
+/* ===== Modern Reset ===== */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ===== Basic fonts and colors ===== */
+* {
+    font-family: "Fira Code", monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+a {
+    font-weight: 400;
+    color: #ABB2BF;
+}
+
+body {
+    background-color: #282C33;
+}
+
+main {
+    /*CLEAR*/
+    height: 1000px;
+}
