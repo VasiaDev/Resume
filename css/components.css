@@ -1,0 +1,38 @@
+/* ===== Button - Contact me! (home.html) ===== */
+.representation-button-contact {
+    padding: 8px 16px;
+    border: 1px solid #C778DD;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transition: opacity 0.3s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.representation-button-contact:hover {
+    background: rgba(199, 120, 221, 0.3);
+}
+
+.representation-button-contact.visible {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+/* ===== The effect of printing text (home.html) ===== */
+.typing-cursor::after {
+    content: '_'; /* '_', '█', '▍' */
+    animation: blink 0.5s infinite;
+    margin-left: 2px;
+    opacity: 1;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50%      { opacity: 0; }
+}
+

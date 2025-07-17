@@ -1,0 +1,12 @@
+{
+  "linkHome": "<span class=\"hashtag\">#</span>главная",
+  "linkWorks": "<span class=\"hashtag\">#</span>работы",
+  "linkAboutMe": "<span class=\"hashtag\">#</span>обо-мне",
+  "linkContacts": "<span class=\"hashtag\">#</span>контакты",
+
+  "representationText": "Привет, я Чеботарь Василий - <span class=\"color-highlight\">веб-разработчик</span>, специализирующийся на современной <span class=\"color-highlight\">веб-разработке</span>",
+  "representationSubText": "Я создаю адаптивные сайты, сочетающие технологии и креатив",
+
+  "contactMe": "Связаться со мной!",
+  "subRepresentationPhoto": "Сейчас работаю над <span class=\"small-word\">Портфолио</span>"
+}

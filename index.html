@@ -28,10 +28,10 @@
 <body>
     <!-- Header -->
     <header>
-        <div class="container">
+        <div class="wrapper container d-flex">
             <div class="d-flex justify-content-between">
                 <!-- Logo-->
-                <a href="index.html" class="header-logo d-flex gap-2 align-items-center">
+                <a href="#home" class="header-logo d-flex gap-2 align-items-center">
                     <div class="header-logo-picture">
                         <img src="assets/images/logo.svg" alt="logo">
                     </div>
@@ -40,10 +40,10 @@
 
                 <!-- Nav menu-->
                 <div class="header-nav d-flex">
-                    <a class="header-nav-link active" href="#"><span class="hashtag">#</span>home</a>
-                    <a class="header-nav-link" href="#"><span class="hashtag">#</span>works</a>
-                    <a class="header-nav-link" href="#"><span class="hashtag">#</span>about-me</a>
-                    <a class="header-nav-link" href="#"><span class="hashtag">#</span>contacts</a>
+                    <a class="header-nav-link lang-txt active" href="#home" data-i18n="linkHome"></a>
+                    <a class="header-nav-link lang-txt" href="#works" data-i18n="linkWorks"></a>
+                    <a class="header-nav-link lang-txt" href="#about" data-i18n="linkAboutMe"></a>
+                    <a class="header-nav-link lang-txt" href="#contacts" data-i18n="linkContacts"></a>
 
                     <!-- Language switcher-->
                     <div class="language-container">
@@ -64,9 +64,7 @@
     </header>
 
     <!-- Main -->
-    <main>
-
-    </main>
+    <main id="content"></main>
 
     <!-- Footer -->
     <footer>

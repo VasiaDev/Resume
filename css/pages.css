@@ -1,0 +1,100 @@
+/* ===== home.html ===== */
+/* Reprezentation */
+.color-highlight {
+    color: #C778DD;
+}
+
+.representation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: clamp(60px, 9vw, 123px);
+    height: 500px;
+}
+
+.representation-description {
+    width: 100%;
+    max-width: 537px;
+    min-width: 300px;
+    box-sizing: border-box;
+    white-space: normal;
+}
+
+.representation-text,
+.color-highlight {
+    font-weight: 600;
+    font-size: clamp(20px, 2.4vw, 32px);
+}
+
+.representation-subtext {
+    padding-top: 32px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ABB2BF;
+    margin-bottom: 24px;
+}
+
+.representation-photo {
+    position: relative;
+    width: 100%;
+    max-width: 440px;
+    aspect-ratio: 1 / 1;
+    flex-shrink: 0;
+}
+
+.representation-photo img.representation-home-dots {
+    position: absolute;
+    bottom: 80px;
+    right: 90px;
+    width: 84px;
+    height: auto;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.representation-photo img:not(.representation-home-logo, .representation-home-dots) {
+    width: 85%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.representation-photo img.representation-home-logo {
+    position: absolute;
+    top: 110px;
+    left: 40px;
+    width: 155px;
+    height: auto;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.small-fragment {
+    border: solid 1px #ABB2BF;
+    height: 37px;
+    width: 402px;
+    padding: 0 12px;
+}
+
+.small-square {
+    background-color: #C778DD;
+    width: 16px;
+    height: 16px;
+}
+
+.small-text {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ABB2BF;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.small-word {
+    font-weight: 500;
+}
+
+

@@ -1,0 +1,12 @@
+{
+  "linkHome": "<span class=\"hashtag\">#</span>home",
+  "linkWorks": "<span class=\"hashtag\">#</span>works",
+  "linkAboutMe": "<span class=\"hashtag\">#</span>about-me",
+  "linkContacts": "<span class=\"hashtag\">#</span>contacts",
+
+  "representationText": "Hi, I'm Cebotari Vasile - a <span class=\"color-highlight\">web developer</span> specializing in modern <span class=\"color-highlight\">web development</span>",
+  "representationSubText": "I create responsive websites that combine technology and creativity",
+
+  "contactMe": "Contact me!",
+  "subRepresentationPhoto": "Currently working on <span class=\"small-word\">Portfolio</span>"
+}

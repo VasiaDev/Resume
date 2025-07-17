@@ -1,0 +1,12 @@
+{
+  "linkHome": "<span class=\"hashtag\">#</span>acasă",
+  "linkWorks": "<span class=\"hashtag\">#</span>lucrări",
+  "linkAboutMe": "<span class=\"hashtag\">#</span>despre-mine",
+  "linkContacts": "<span class=\"hashtag\">#</span>contacte",
+
+  "representationText": "Salut, sunt Cebotari Vasile - <span class=\"color-highlight\">dezvoltator web</span> specializat în <span class=\"color-highlight\">dezvoltarea web modernă</span>",
+  "representationSubText": "Creez site-uri responsive care îmbină tehnologia cu creativitatea",
+
+  "contactMe": "Contactează-mă!",
+  "subRepresentationPhoto": "Lucrez în prezent la <span class=\"small-word\">Portofoliu</span>"
+}
