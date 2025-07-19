@@ -10,7 +10,8 @@ header {
 }
 
 .header-logo,
-.header-nav {
+.header-nav,
+.email {
     margin-top: 32px;
     margin-bottom: 8px;
 }
@@ -122,3 +123,40 @@ header {
     padding-left: 17px;
 }
 
+/* ===== Footer ===== */
+footer {
+    border-top: solid 1px #ABB2BF;
+}
+
+.footer-container {
+    display: block;
+}
+
+.footer-headline-logoWithMail {
+    margin-bottom: 8px;
+}
+
+.footer-media-text {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.email,
+.copyright,
+.specialization {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.email,
+.copyright {
+    color: #ABB2BF;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 48px;
+    padding-bottom: 32px;
+}

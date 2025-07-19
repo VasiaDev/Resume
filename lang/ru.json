@@ -8,5 +8,9 @@
   "representationSubText": "Я создаю адаптивные сайты, сочетающие технологии и креатив",
 
   "contactMe": "Связаться со мной!",
-  "subRepresentationPhoto": "Сейчас работаю над <span class=\"small-word\">Портфолио</span>"
+  "subRepresentationPhoto": "На данный момент работаю над <span class=\"small-word\">Портфолио</span>",
+
+  "specialization": "Веб-разработчик Full Stack",
+  "media": "Медиа",
+  "copyright": "© Авторское право 2025. Разработано Василием"
 }

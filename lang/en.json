@@ -8,5 +8,9 @@
   "representationSubText": "I create responsive websites that combine technology and creativity",
 
   "contactMe": "Contact me!",
-  "subRepresentationPhoto": "Currently working on <span class=\"small-word\">Portfolio</span>"
+  "subRepresentationPhoto": "Currently working on <span class=\"small-word\">Portfolio</span>",
+
+  "specialization": "Full Stack Web Developer",
+  "media": "Media",
+  "copyright": "© Copyright 2025. Made by Vasile"
 }
