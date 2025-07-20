@@ -97,4 +97,70 @@
     font-weight: 500;
 }
 
+/* Quote */
+.quote {
+    margin-top: 160px !important;
+    position: relative;
+}
+
+.quote-text {
+    padding: 32px;
+    border: solid 1px #ABB2BF;
+    text-align: center;
+    width: fit-content;
+    max-width: 100%;
+}
+
+.quote-author {
+    position: absolute;
+    top: 99%;
+    right: 0;
+    padding: 16px;
+    border: solid 1px #ABB2BF;
+    width: fit-content;
+}
+
+.quote-mark {
+    width: 40px;
+}
+
+.quote-mark.left {
+    position: absolute;
+    bottom: 76px;
+    left: 10px;
+}
+
+.quote-mark.right {
+    position: absolute;
+    z-index: 1;
+    top: 77px;
+    right: 10px;
+}
+
+.quote-author p,
+.quote-text p {
+    margin: 0;
+}
+
+.quote-text p {
+    font-weight: 500;
+}
+
+.quote-author p {
+    font-weight: 400;
+}
+
+.quote-inner {
+    position: relative;
+    display: inline-block;
+}
+
+.quote-square {
+    position: absolute;
+    right: 0;
+    margin-top: -60px;
+}
+
+
+
 
