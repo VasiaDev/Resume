@@ -157,10 +157,212 @@
 
 .quote-square {
     position: absolute;
-    right: 0;
+    right: -2px;
     margin-top: -60px;
 }
 
+/* Tabs */
+.space {
+    height: 130px;
+}
+/* projects */
+.view-all-text-end {
+    right: 0;
+    position: absolute;
+}
 
+.preview-image {
+    border: solid 1px #ABB2BF;
+    display: block;
+    width: 318px;
+    height: 200px;
+    margin-bottom: -1px;
+}
 
+.technologies {
+    border: solid 1px #ABB2BF;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: -1px;
+}
 
+.technologies p{
+    color: #ABB2BF;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.tap-projects {
+    margin-top: 33px;
+}
+
+.preview-wrapper {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    border: solid 1px #ABB2BF;
+}
+
+.project-name {
+    font-weight: 500;
+    margin: 0;
+}
+
+.project-description-text {
+    font-weight: 400;
+    color: #ABB2BF;
+    padding: 0 16px;
+    margin: 0;
+}
+
+/* skills */
+.panel-figures {
+    position: relative;
+}
+
+.figure.dots {
+    position: absolute;
+    width: 63px;
+    height: 63px;
+}
+
+.figure.dots.one {
+    top: 50px;
+}
+
+.figure.dots.two {
+    top: 155px;
+    left: 209px;
+}
+
+.figure.square {
+    position: absolute;
+}
+
+.figure.square.big {
+    width: 86px;
+    height: 86px;
+    left: 185px;
+    top: 12px;
+}
+
+.figure.square.small {
+    width: 52px;
+    height: 52px;
+    left: 329px;
+    top: 205px;
+}
+
+.figure.abstract {
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    left: 47px;
+    top: 181px;
+}
+
+/* table */
+table {
+    width: 200px;
+    color: white;
+    margin: 16px 8px;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ABB2BF;
+}
+th {
+    font-weight: 500;
+    text-align: left;
+    font-size: 1rem;
+}
+td {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ABB2BF;
+}
+
+/* about-me */
+pre {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ABB2BF;
+    width: 515px;
+}
+
+.about-me-text {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin-top: 23px;
+    margin-bottom: 27px;
+}
+
+.about-me-img {
+    width: 340px;
+    height: auto;
+}
+
+/* figures */
+.about-me-square {
+    width: 155px;
+    height: auto;
+    left: -340px;
+    top: 110px;
+}
+
+.about-me-dots-square {
+    width: 84px;
+    right: 270px;
+    top: 20px;
+}
+
+.about-me-dots-big {
+    width: 104px;
+    right: 80px;
+    bottom: 110px;
+}
+
+.about-me-dots-square-big {
+    width: 103px;
+    right: -290px;
+    bottom: 35px;
+}
+
+/* contacts */
+.contacts-text {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    margin-top: 45px;
+    margin-bottom: 200px;
+}
+
+.contacts-data {
+    margin-top: 45px;
+    width: 305px;
+    height: 141px;
+    border: 1px solid #ABB2BF;
+    padding: 16px;
+}
+
+.contacts-data p{
+    margin: 0;
+}
+
+.contacts-title {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.contacts-details {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ABB2BF;
+}

@@ -15,5 +15,29 @@
   "copyright": "© Drepturi de autor 2025. Creat de Vasile",
 
   "quote": "Puterea nu constă în a nu cădea niciodată, ci în a te ridica de fiecare dată când cazi",
-  "author": "- N. Mandela"
+  "author": "- N. Mandela",
+
+  "projects": "<span class=\"prefix\">#</span>proiecte",
+  "skills": "<span class=\"prefix\">#</span>abilități",
+  "about-me": "<span class=\"prefix\">#</span>despre-mine",
+  "contacts": "<span class=\"prefix\">#</span>contacte",
+
+  "view-all": "Vezi toate ~~>",
+
+  "project-1-title": "CV",
+  "project-1-desc": "Îl folosești chiar acum",
+  "live": "Live <~>",
+
+  "languages": "Limbaje",
+  "databases": "Baze de date",
+  "other": "Altele",
+  "tools": "Instrumente",
+  "frameworks": "Framework-uri",
+
+  "about-me-text": "Salut, sunt Vasile!\n\nSunt dezvoltator web din Chișinău, Moldova. Am absolvit Centrul de Excelență în Informatică și Tehnologii Informaționale și am acumulat experiență practică lucrând la Unifun.\n\nMă specializez în construirea de site-uri responsive și moderne de la zero și în transformarea ideilor în experiențe digitale funcționale și prietenoase pentru utilizatori.\n\nDezvoltarea web este pasiunea mea — îmi place să transform creativitatea și cunoștințele tehnice în produse reale. Sunt mereu dornic să învăț tehnologii și framework-uri noi pentru a oferi soluții și mai bune clienților.\n\n",
+
+  "read-more": "Citește mai mult ->",
+
+  "contacts-text": "Sunt interesat de angajare full-time. Dacă aveți alte oferte sau întrebări, nu ezitați să mă contactați.",
+  "contacts-title": "Trimite-mi un mesaj aici"
 }

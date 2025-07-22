@@ -15,5 +15,29 @@
   "copyright": "© Copyright 2025. Made by Vasile",
 
   "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall",
-  "author": "- N. Mandela"
+  "author": "- N. Mandela",
+
+  "projects": "<span class=\"prefix\">#</span>projects",
+  "skills": "<span class=\"prefix\">#</span>skills",
+  "about-me": "<span class=\"prefix\">#</span>about-me",
+  "contacts": "<span class=\"prefix\">#</span>contacts",
+
+  "view-all": "View all ~~>",
+
+  "project-1-title": "Resume",
+  "project-1-desc": "You’re using it rn",
+  "live": "Live <~>",
+
+  "languages": "Languages",
+  "databases": "Databases",
+  "other": "Other",
+  "tools": "Tools",
+  "frameworks": "Frameworks",
+
+  "about-me-text": "Hello, I’m Vasile!\n\nI’m a web developer based in Chișinău, Moldova. I graduated from the Center of Excellence in Informatics and Information Technologies and gained hands-on experience working at Unifun.\n\nI specialize in building responsive, modern websites from the ground up and turning ideas into fully functional and user-friendly digital experiences.\n\nWeb development is my passion — I enjoy transforming creativity and technical knowledge into real-world products. I'm always eager to learn new technologies and frameworks to deliver even better solutions for clients.\n\n",
+
+  "read-more": "Read more ->",
+
+  "contacts-text": "I am interested in full-time employment. If you have any other offers or questions, please feel free to contact me.",
+  "contacts-title": "Message me here"
 }

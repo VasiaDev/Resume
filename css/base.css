@@ -43,6 +43,10 @@ table {
     border-spacing: 0;
 }
 
+pre {
+    margin: 0;
+}
+
 /* ===== Basic fonts and colors ===== */
 * {
     font-family: "Fira Code", monospace;
@@ -62,6 +66,5 @@ body {
 
 main {
     position: relative;
-    /*CLEAR*/
-    height: 1000px;
+    height: auto;
 }
