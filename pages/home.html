@@ -146,6 +146,7 @@
                             Vue.js
                             jQuery
                             Bootstrap
+                            Tailwind
                         </td>
                     </tr>
                 </table>
@@ -164,8 +165,27 @@
             <pre class="about-me-text lang-txt" data-i18n="about-me-text"></pre>
             <button class="read-more lang-txt" data-i18n="read-more"></button>
         </div>
-        <div>
-            <img class="about-me-img" src="./assets/images/friends.png" alt="Vasile">
+        <div class="carousel-container">
+            <div class="carousel-wrapper">
+                <div class="carousel-slide prev">
+                    <img src="./assets/images/friend.jpg" alt="Slide-1">
+                </div>
+                <div class="carousel-slide active">
+                    <img src="./assets/images/single.jpg" alt="Slide-2">
+                </div>
+                <div class="carousel-slide next">
+                    <img src="./assets/images/friends.jpg" alt="Slide-3">
+                </div>
+            </div>
+
+            <button class="carousel-nav prev-btn">‹</button>
+            <button class="carousel-nav next-btn">›</button>
+
+            <div class="carousel-dots">
+                <div class="dot"></div>
+                <div class="dot active"></div>
+                <div class="dot"></div>
+            </div>
         </div>
         <img class="about-me-dots-square position-absolute" src="./assets/images/dots-square.svg">
         <img class="about-me-dots-big position-absolute" src="./assets/images/dots-big.svg">

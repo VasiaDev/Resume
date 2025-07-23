@@ -297,7 +297,7 @@ pre {
     white-space: pre-wrap;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    max-width: 100%;
+    max-width: 85%;
     overflow-x: hidden;
     margin-top: 23px;
     margin-bottom: 27px;
@@ -317,15 +317,17 @@ pre {
 }
 
 .about-me-dots-square {
-    width: 84px;
-    right: 270px;
-    top: 20px;
+    width: 58px;
+    right: 310px;
+    top: 8%;
+    z-index: -1;
 }
 
 .about-me-dots-big {
     width: 104px;
-    right: 80px;
-    bottom: 110px;
+    right: 31px;
+    bottom: 13%;
+    z-index: -1;
 }
 
 .about-me-dots-square-big {

@@ -38,6 +38,12 @@ $(function () {
 function loadPage(page) {
     $("#content").load(`pages/${page}.html`, function () {
         updateTexts();
+
+        // Carousel
+        const carouselEl = document.querySelector('.carousel-container');
+        if (carouselEl) {
+            new ModernCarousel(carouselEl);
+        }
     });
 }
 
@@ -75,5 +81,9 @@ $(document).ready(function () {
 
     $(document).on('click', '.representation-button-contact', function () {
         location.hash = 'contacts';
+    });
+
+    $(document).on('click', '.read-more', function () {
+        location.hash = 'about';
     });
 });

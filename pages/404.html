@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Modern Reset */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            height: 100%;
+            font-family: "Fira Code", monospace;
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        img, picture, video, canvas, svg {
+            display: block;
+            max-width: 100%;
+        }
+
+        button {
+            cursor: pointer;
+            font: inherit;
+            background: none;
+            border: none;
+            outline: none;
+        }
+
+        body {
+            background-color: #282C33;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1024px;
+            margin: 0 auto;
+            padding: 0 16px;
+        }
+
+        .d-flex {
+            display: flex;
+        }
+
+        .justify-content-between {
+            justify-content: space-between;
+        }
+
+        .align-items-center {
+            align-items: center;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .gap-2 {
+            gap: 0.5rem;
+        }
+
+        .gap-3 {
+            gap: 0.75rem;
+        }
+
+        .position-relative {
+            position: relative;
+        }
+
+        .position-absolute {
+            position: absolute;
+        }
+
+        /* Header */
+        header {
+            width: 100%;
+            background-color: #282C33;
+            box-sizing: border-box;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 32px 0 8px 0;
+            border-bottom: 1px solid #ABB2BF;
+        }
+
+        .header-logo {
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .header-nav {
+            gap: 2rem;
+        }
+
+        .header-nav-link {
+            font-weight: 400;
+            color: #ABB2BF;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+
+        .header-nav-link:hover {
+            color: white;
+        }
+
+        .hashtag {
+            color: #C778DD;
+        }
+
+        /* Main content */
+        main {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .error-container {
+            text-align: center;
+            max-width: 800px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .error-code {
+            font-size: clamp(80px, 15vw, 200px);
+            font-weight: 700;
+            color: #C778DD;
+            line-height: 1;
+            margin-bottom: 20px;
+            text-shadow: 0 0 20px rgba(199, 120, 221, 0.3);
+        }
+
+        .error-title {
+            font-size: clamp(24px, 4vw, 48px);
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: white;
+        }
+
+        .error-message {
+            font-size: 18px;
+            font-weight: 400;
+            color: #ABB2BF;
+            margin-bottom: 32px;
+            line-height: 1.6;
+        }
+
+        .development-info {
+            background: rgba(199, 120, 221, 0.1);
+            border: 1px solid #C778DD;
+            padding: 24px;
+            border-radius: 8px;
+            margin-bottom: 32px;
+        }
+
+        .development-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #C778DD;
+            margin-bottom: 12px;
+        }
+
+        .development-text {
+            font-size: 16px;
+            color: #ABB2BF;
+            line-height: 1.6;
+        }
+
+        .back-button {
+            background: transparent;
+            border: 1px solid #C778DD;
+            color: #C778DD;
+            padding: 12px 24px;
+            font-weight: 500;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .back-button:hover {
+            background: #C778DD;
+            color: #282C33;
+            transform: translateY(-2px);
+        }
+
+        /* Decorative elements */
+        .decoration-square {
+            position: absolute;
+            width: 86px;
+            height: 86px;
+            border: 1px solid #ABB2BF;
+            opacity: 0.3;
+        }
+
+        .decoration-square-1 {
+            top: 20%;
+            left: 10%;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .decoration-square-2 {
+            top: 60%;
+            right: 15%;
+            animation: float 8s ease-in-out infinite reverse;
+        }
+
+        .decoration-dots {
+            position: absolute;
+            width: 64px;
+            height: 64px;
+            opacity: 0.4;
+        }
+
+        .decoration-dots-1 {
+            top: 15%;
+            right: 20%;
+            animation: pulse 4s ease-in-out infinite;
+        }
+
+        .decoration-dots-2 {
+            bottom: 25%;
+            left: 15%;
+            animation: pulse 5s ease-in-out infinite reverse;
+        }
+
+        /* Animations */
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.4; transform: scale(1); }
+            50% { opacity: 0.8; transform: scale(1.1); }
+        }
+
+        @keyframes glow {
+            0%, 100% { text-shadow: 0 0 20px rgba(199, 120, 221, 0.3); }
+            50% { text-shadow: 0 0 40px rgba(199, 120, 221, 0.6); }
+        }
+
+        .error-code {
+            animation: glow 3s ease-in-out infinite;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid #ABB2BF;
+            padding: 32px 0;
+            margin-top: auto;
+        }
+
+        .footer-content {
+            text-align: center;
+            color: #ABB2BF;
+            font-size: 14px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 20px;
+            }
+            
+            .development-info {
+                padding: 16px;
+            }
+            
+            .decoration-square,
+            .decoration-dots {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <!-- Decorative elements -->
+        <div class="decoration-square decoration-square-1"></div>
+        <div class="decoration-square decoration-square-2"></div>
+        
+        <div class="decoration-dots decoration-dots-1">
+            <img src="../assets/images/dots-square.svg">
+        </div>
+        
+        <div class="decoration-dots decoration-dots-2">
+            <img src="../assets/images/dots-big.svg">
+        </div>
+
+        <div class="container">
+            <div class="error-container">
+                <div class="error-code">404</div>
+                <h1 class="error-title">Страница не найдена</h1>
+                <p class="error-message">
+                    Упс! Похоже, что страница, которую вы ищете, не существует или была перемещена.
+                </p>
+                
+                <div class="development-info">
+                    <h2 class="development-title">🚧 В разработке</h2>
+                    <p class="development-text">
+                        Данная страница находится в активной разработке. Я работаю над созданием новых интересных функций и контента. Скоро здесь появится что-то удивительное!
+                    </p>
+                </div>
+
+                <button class="back-button" onclick="goBack()">
+                    ← Вернуться назад
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function goBack() {
+            if (window.history.length > 1) {
+                window.history.back();
+            } else {
+                window.location.href = '/';
+            }
+        }
+
+        // Add some interactivity
+        document.addEventListener('mousemove', (e) => {
+            const squares = document.querySelectorAll('.decoration-square');
+            squares.forEach((square, index) => {
+                const speed = (index + 1) * 0.5;
+                const x = (e.clientX * speed) / 100;
+                const y = (e.clientY * speed) / 100;
+                
+                square.style.transform = `translate(${x}px, ${y}px) rotate(${x / 5}deg)`;
+            });
+        });
+    </script>
+</body>
+</html>

@@ -11,6 +11,7 @@ html, body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
 }
 
 img, picture, video, canvas, svg {
@@ -67,4 +68,10 @@ body {
 main {
     position: relative;
     height: auto;
+}
+
+/* ===== Scrollbars ===== */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #2D2F32 #1a1a1a;
 }
