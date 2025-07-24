@@ -149,3 +149,35 @@ async function updateTexts() {
         }, 200);
     }
 }
+
+// === Burger menu === //
+document.addEventListener("DOMContentLoaded", () => {
+    const burger = document.getElementById("burger");
+    const nav = document.querySelector(".header-nav");
+    const links = document.querySelectorAll(".header-nav-link");
+
+    burger.addEventListener("click", () => {
+        nav.classList.toggle("show");
+        burger.classList.toggle("active");
+        document.body.classList.toggle("no-scroll");
+    });
+
+    links.forEach(link => {
+        link.addEventListener("click", (e) => {
+            nav.classList.remove("show");
+            burger.classList.remove("active");
+            document.body.classList.remove("no-scroll");
+
+            const target = link.getAttribute("href");
+            if (window.location.hash === target) {
+                e.preventDefault();
+                const el = document.querySelector(target);
+                if (el) {
+                    el.scrollIntoView({ behavior: "smooth" });
+                }
+            }
+        });
+    });
+});
+
+
