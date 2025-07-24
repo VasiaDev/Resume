@@ -371,4 +371,19 @@ pre {
     font-weight: 400;
     font-size: 1rem;
     color: #ABB2BF;
+    transition: color 0.9s ease;
+}
+
+.contacts-details:hover {
+    color: #C778DD;
+}
+
+/* ===== contacts.html ===== */
+.page-contacts-media {
+    color: #ABB2BF;
+    transition: color 0.9s ease;
+}
+
+.page-contacts-media:hover {
+    color: #C778DD;
 }

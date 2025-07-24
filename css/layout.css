@@ -117,6 +117,40 @@ header {
     padding-left: 17px;
 }
 
+.media-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.media-item img {
+    cursor: pointer;
+}
+
+/* Tooltip text */
+.tooltip {
+    position: absolute;
+    left: 40px;
+    opacity: 0;
+    visibility: hidden;
+    white-space: nowrap;
+    background-color: #3c4047;
+    color: #C778DD;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateX(-10px);
+}
+
+/* Show tooltip on hover */
+.media-item:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+
 /* ===== Footer ===== */
 footer {
     border-top: solid 1px #ABB2BF;

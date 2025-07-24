@@ -39,5 +39,9 @@
   "read-more": "Read more ->",
 
   "contacts-text": "I am interested in full-time employment. If you have any other offers or questions, please feel free to contact me.",
-  "contacts-title": "Message me here"
+  "contacts-title": "Message me here",
+
+  "page-contacts-title": "<span class=\"prefix\">/</span>contacts",
+  "page-contacts-text": "Who am I?\n\nI’m a web developer with a passion for building responsive and user-friendly websites. I’m currently open to full-time opportunities. If you have a position or any questions, feel free to get in touch",
+  "page-contacts-media": "<span class=\"prefix\">#</span>all-media"
 }

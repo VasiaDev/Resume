@@ -39,5 +39,9 @@
   "read-more": "Citește mai mult ->",
 
   "contacts-text": "Sunt interesat de angajare full-time. Dacă aveți alte oferte sau întrebări, nu ezitați să mă contactați.",
-  "contacts-title": "Trimite-mi un mesaj aici"
+  "contacts-title": "Trimite-mi un mesaj aici",
+
+  "page-contacts-title": "<span class=\"prefix\">/</span>contacte",
+  "page-contacts-text": "Cine sunt eu?\n\nSunt un dezvoltator web pasionat de crearea de site-uri adaptive și ușor de utilizat. În prezent, sunt deschis pentru oferte de angajare full-time. Dacă aveți un post disponibil sau întrebări — nu ezitați să mă contactați",
+  "page-contacts-media": "<span class=\"prefix\">#</span>toate-rețelele-sociale"
 }
